@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>movie library
+  </title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/0d5221c363.js" crossorigin="anonymous"></script>
+  <style></style>
+</head>
+<body>
+  <header>
+  <div class="searching">
+    <form  id="form">
+      <input type="text" id="search" class="" placeholder="Search for a movie">
+  </form>
+</header>    
+<div class="bottom-section">
+
+  <div class="left-section">
+    <div id="discover">
+      <a href="index.html"><img src="images/vintage-video-camera-logo-for-movie-or-cinema-vector-35120946.webp" alt=""></a>
+      <hr>
+      
+      <h1>Discover</h1>
+      <form>
+        
+        <input type="radio" id="option1" name="options" value="option1" checked >
+
+        <label for="option1">&nbsp;<i class="fa-solid fa-heart"></i> &nbsp;Popular</label><br>
+        <input type="radio" id="option2" name="options" value="option2" >
+        <label for="option2" aria-checked="">&nbsp;<i class="fa-solid fa-square-poll-vertical"></i>&nbsp;Top-rated&nbsp;</label><br>
+        <input type="radio" id="option3" name="options" value="option3">
+        <label for="option3">&nbsp;<i class="fa-solid fa-calendar"></i>&nbsp;Upcoming</label><br>  
+      
+      </form>
+      
+    </div>
+<div id="tags">
+
+  
+</div>
+
+</div>
+
+  <main class="main" id="main">
+  
+  </main>
+  
+</div>
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content" id="overlay-content"></div>
+  
+
+</div>
+
+
+
+  <script src="popular.js"></script>
+</body>
+</html>
